@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="GPD" ext="gpd" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="yes" foldCompact="yes" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="yes" Keywords2="yes" Keywords3="yes" Keywords4="no" Keywords5="yes" Keywords6="yes" Keywords7="yes" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00*% 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2">0x</Keywords>
+            <Keywords name="Numbers, extras1">A B C D E F a b c d e f</Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">: = ( , )</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">{</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">}</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open">*Ifdef</Keywords>
+            <Keywords name="Folders in comment, middle">*Elseifdef *Else</Keywords>
+            <Keywords name="Folders in comment, close">*Endif</Keywords>
+            <Keywords name="Keywords1">*switch *case *default *Feature *IgnoreBlock *IsXPSDriver *CodePage *FontCartSlots *GPDFileName *GPDFileVersion *GPDSpecVersion *HelpFile *InstalledOptionName *MasterUnits *MaxCopies *ModelName *NotInstalledOptionName *Personality *PrinterType *PrintRate *PrintRatePPM *PrintRateUnit *rcInstalledOptionNameID *rcNotInstalledOptionNameID *rcPersonalityID *rcPrinterIconID *ResourceDLL *MemoryUsage *OEMCustomData *OutputOrderReversed? *ReselectFont *ReverseBandOrderForEvenPages? *RotateCoordinate? *RotateFont? *RotateRaster? *TextCaps *ChangeColorModeOnDoc? *CyanInMagentaDye *CyanInYellowDye *EnableGDIColorMapping *MagentaInCyanDye *MagentaInYellowDye *YellowInCyanDye *YellowInMagentaDye *AbsXMovesRightOnly? *BadCursorMoveInGrxMode *CursorXAfterCR *EjectPageWithFF? *LineSpacingMoveUnit *MaxLineSpacing *UseSpaceForXMove? *XMoveThreshold *XMoveUnit *YMoveAttributes *YMoveThreshold *YMoveUnit *CharPosition *DefaultCTT *DefaultFont *LookAheadRegion *MaxFontUsePerPage *TextYOffset *DLSymbolSet *FontFormat *MaxFontID *MaxGlyphID *MaxNumDownFonts *MinFontID *MinGlyphID *TextHalftoneThreshold *DiffFontsPerByteMode? *CursorXAfterSendBlockData *CursorYAfterSendBlockData *MaxMultipleRowBytes *MirrorRasterByte? *MirrorRasterPage? *MoveToX0BeforeSetColor? *OptimizeLeftBound? *RasterSendAllData? *SendMultipleRows? *StripBlanks *UseExpColorSelectCmd? *CursorXAfterRectFill *CursorYAfterRectFill *MaxGrayFill *MinGrayFill *CallbackID *Cmd *NoPageEject? *Order *Params *Command *rcInstallableFeatureNameID *rcNameID *Name *Option *rcIconID *rcInstallableFeatureNameID *UpdateQualityMacro? *PrintSchemaPrivateNamespaceURI *PreAnalysisOptions *TTFSEnabled? *DeviceFonts *Color? *ColorPlaneOrder *DevBPP *DevNumOfPlanes *DrvBPP *IPCallbackID *PaletteProgrammable? *PaletteSize *RasterMode *HTCallbackID *HTNumPatterns *HTPatternSize *rcHTPatternID *MemConfigKB *MemConfigMB *MemoryConfigKB *BottomMargin *CenterPrintable? *CursorOrigin *CustCursorOriginX *CustCursorOriginY *CustPrintableOriginX *CustPrintableOriginY *CustPrintableSizeX *CustPrintableSizeY *MaxSize *MaxPrintableWidth *MinLeftMargin *MinSize *PageDimensions *PageProtectMem *PrintableArea *PrintableOrigin *RotateSize? *TopMargin *DPI *MinStripBlankPixels *PinsPerLogPass *PinsPerPhysPass *RequireUniDir? *SpotDiameter *TextDPI *ConcealFromUI? *ConflictPriority *DefaultOption *FeatureType *HelpIndex *Installable? *InstallableFeatureName *BlockMacro *Macros *Constraints *InvalidCombination *InvalidInstallableCombination InstalledConstraints NotInstalledConstraints *FontCartridge *CartridgeName *Fonts *LandscapeFonts *PortraitFonts *rcCartridgeNameID *TTFS *TTFontName *DevFontName *TTFSEnabled? *BestQualitySettings *BetterQualitySettings *DefaultQuality *DraftQualitySettings</Keywords>
+            <Keywords name="Keywords2">Collate ColorMode Duplex Halftone InputBin MediaType Memory Orientation OutputBin PageProtect RESDLL Resolution Stapling</Keywords>
+            <Keywords name="Keywords3">CmdSelectBlackColor CmdSelectBlueColor CmdSelectCyanColor CmdSelectGreenColor CmdSelectMagentaColor CmdSelectRedColor CmdSelectYellowColor CmdSelectWhiteColor CmdBackSpace CmdCR CmdFF CmdLF CmdPopCursor CmdPushCursor CmdSetAnyRotation CmdSetLineSpacing CmdSetSimpleRotation CmdUniDirectionOff CmdUniDirectionOn CmdXMoveAbsolute CmdXMoveRelLeft CmdXMoveRelRight CmdYMoveAbsolute CmdYMoveRelDown CmdYMoveRelUp CmdStartJob CmdStartDoc CmdStartPage CmdEndPage CmdEndDoc CmdEndJob CmdCopies CmdSleepTimeOut CmdSelect CmdDeleteFont CmdDeselectFontID CmdSelectFontHeight CmdSelectFontID CmdSelectFontWidth CmdSetCharCode CmdSetFontID CmdBoldOff CmdBoldOn CmdClearAllFontAttribs CmdItalicOff CmdItalicOn CmdSelectDoubleByteMode CmdSelectSingleByteMode CmdSetFontSim CmdStrikeThruOff CmdStrikeThruOn CmdUnderlineOff CmdUnderlineOn CmdVerticalPrintingOff CmdVerticalPrintingOn CmdWhiteTextOff CmdWhiteTextOn CmdDisableCompression CmdEnableDRC CmdEnableFE_RLE CmdEnableOEMComp CmdEnableTIFF4 CmdBeginRaster CmdEndRaster CmdSetDestBmpHeight CmdSetDestBmpWidth CmdSetSrcBmpHeight CmdSetSrcBmpWidth CmdSendBlockData CmdEndBlockData CmdSendBlackData CmdSendBlueData CmdSendCyanData CmdSendGreenData CmdSendMagentaData CmdSendRedData CmdSendYellowData CmdRectBlackFill CmdRectGrayFill CmdRectWhiteFill CmdSetRectHeight CmdSetRectSize CmdSetRectWidth PAIR LIST</Keywords>
+            <Keywords name="Keywords4">TRUE FALSE ON OFF NONE VERTICAL HORIZONTAL HT_PATSIZE_ AUTO CASSETTE ENVFEED ENVMANUAL FORMSOURCE LARGECAPACITY LARGEFMT LOWER MANUAL MIDDLE SMALLFMT TRACTOR UPPER GLOSSY STANDARD TRANSPARENCY PORTRAIT LANDSCAPE_CC90 LANDSCAPE_CC270 DOC_PROPERTY JOB_PROPERTY PRINTER_PROPERTY FORMSOURCE X_PORTRAIT X_LANDSCAPE Y_PORTRAIT Y_LANDSCAPE LETTER DISPLAY AT_PRINTABLE_X_ORIGIN AT_CURSOR_X_ORIGIN NO_MOVE AUTO_INCREMENT H_BYTE V_BYTE LEADING ENCLOSED TRAILING CYAN MAGENTA YELLOW BLACK PARSER_VER_1.0 BlueValue CurrentFontID CurrentPaletteIndex CursorOriginX CursorOriginY DestX DestXRel DestY DestYRel FontBold FontHeight FontItalic FontMaxWidth FontStrikeThru FontUnderLine FontWidth GraphicsXRes GraphicsYRes GrayPercentage GreenValue LinefeedSpacing NextFontID NextGlyph NumOfCopies NumOfDataBytes PageNumber PaletteIndexToProgram PatternBrushID PatternBrushSize PatternBrushType PhysPaperLength PhysPaperWidth PrintDirInCCDegrees RasterDataHeightInPixels RasterDataWidthInBytes RectXSize RectYSize RedValue TextXRes TextYRes</Keywords>
+            <Keywords name="Keywords5">*Define *Undefine *Include *SetPPPrefix</Keywords>
+            <Keywords name="Keywords6">JOB_SETUP. PAGE_SETUP. WINNT_ AT_GRXDATA_ HT_PATSIZE_</Keywords>
+            <Keywords name="Keywords7">EXTERN_GLOBAL</Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&quot; 00&apos; 01\ 01, 02&quot; 02&apos; 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="2" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="3" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="0000FF" bgColor="F0F0F0" fontName="" fontStyle="2" fontSize="9" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="3" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000080" bgColor="FFFF00" fontName="" fontStyle="3" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="333333" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="FF0080" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="333333" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="333333" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="3" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="7D7D7D" bgColor="FFFFFF" fontName="" fontStyle="2" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="3" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="65600" />
+            <WordsStyle name="DELIMITERS5" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="2" nesting="32800" />
+            <WordsStyle name="DELIMITERS6" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="3" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="3" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="333333" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
