@@ -1,3 +1,28 @@
+<!--
+	===================================================================================
+                                        UDL for GPD
+	===================================================================================
+
+	* User Defined Lang for GPD.
+
+	* GPD files are used for creating Unidrv minidrivers.
+	  A Unidrv minidriver consists of a text-based generic printer description (GPD),
+	  which can be contained in one or more GPD files..
+
+	* Place this file in the '\userDefineLangs' folder (for version >= 7.8.9 and above)
+	  or import it by the 'Language' > 'Define your language...' > 'Import...' menu
+	  (for any version)
+
+	===================================================================================
+
+	Author           : Rajendra Singh
+	Version          : 01-Aug-2020
+	Homepage         : https://github.com/SinghRajenM/GPD_UDL
+	About Me         : https://singhrajenm.github.io/
+
+	===================================================================================
+-->
+
 <NotepadPlus>
     <UserLang name="GPD" ext="gpd" udlVersion="2.1">
         <Settings>
