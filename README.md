@@ -1,7 +1,7 @@
 # GPD_UDL
 A Notepad++ UDL (User Defined Language) for GPD (Generic Printer Description) and GDL (Generic Description Language).
 
-Notepad++ supports around 80 programming languages for syntax highlighting & folding, but unfortunately, most widely used GPD/GDL for PCL driver and PPD for PS driver are not supported so far by notepad++. Hence, this UDL server the purpose.
+Notepad++ supports around 80 programming languages for syntax highlighting & folding, but unfortunately, most widely used GPD/GDL for PCL driver and PPD for PS driver are not supported so far by notepad++. Hence, this UDL server the purpose for GPD/GDL.
 
 GPD: https://docs.microsoft.com/en-us/windows-hardware/drivers/print/introduction-to-gpd-files
 
